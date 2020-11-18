@@ -1,8 +1,8 @@
-## This is the application of Unet for seismic images segmentation task.
+### The application of Unet for seismic images segmentation task.
 
 Unet implementation is from https://github.com/jakeret/unet with slight modifications.
 
-The entire process is run from the main.py file, and all the main settings are defined there. The detailed description of parameters is given in the comments in the file itself.
+##### The entire process is run from the main.py file, and all the main settings are defined there. The detailed description of parameters is given in the comments in the file itself.
 
 To run a model with a particular set of parameters set n_ samples to 1 make all hyperparameters to be lists containing a single value (layer_depth_prior = [3]). 
 Training outputs are the following: txt values with accuracy and runtimes, folders for each model created with a particular hyperparameter set containing hyperparameters file, txt files with loss and accuracy history values, corresponding plots; probability segy cubes and a prediction segy
