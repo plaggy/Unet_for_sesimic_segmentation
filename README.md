@@ -1,4 +1,4 @@
-This is the application of Unet for seismic images segmentation task.
+## This is the application of Unet for seismic images segmentation task.
 
 Unet implementation is from https://github.com/jakeret/unet with slight modifications.
 
